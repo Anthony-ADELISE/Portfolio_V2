@@ -1,5 +1,4 @@
 import React from "react";
-import "./Social.css";
 
 // import icons
 import { FaFacebook } from "react-icons/fa";

@@ -1,16 +1,43 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 // import image
-import sendEmail from "../assets/img/sendmail.svg";
+import svgEmail from "../assets/img/sendmail.svg";
 
 const ContactForm = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    // e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_mrr4zsq",
+        "portfolio_template",
+        form.current,
+        "xcVv-8diNh55oonxZ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section className="min-h-[600px] pt-20 text-center">
       <div className="container mx-auto">
         <div className="flex flex-col-reverse lg:flex-row-reverse lg:justify-around">
           {/* form */}
           <div>
-            <form className="flex flex-col text-left space-y-2 pt-10 font-bold pb-8 lg:pt-0">
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className="flex flex-col text-left space-y-2 pt-14 font-bold pb-8 lg:pt-0"
+            >
               <label
                 data-aos="fade-right"
                 data-aos-duration="2000"
@@ -20,7 +47,7 @@ const ContactForm = () => {
               </label>
               <input
                 type="text"
-                name="name"
+                name="user_name"
                 className="input"
                 data-aos="fade-right"
                 data-aos-duration="2000"
@@ -35,7 +62,7 @@ const ContactForm = () => {
               </label>
               <input
                 type="email"
-                name="emmail"
+                name="user_email"
                 className="input"
                 data-aos="fade-left"
                 data-aos-duration="2000"
@@ -49,7 +76,7 @@ const ContactForm = () => {
                 Message
               </label>
               <textarea
-                type="message"
+                name="message"
                 className="textarea"
                 data-aos="fade-right"
                 data-aos-duration="2000"
@@ -90,7 +117,7 @@ const ContactForm = () => {
               data-aos-duration="2000"
               data-aos-delay="500"
             >
-              <img className="w-[400px]" src={sendEmail} alt="email svg" />
+              <img className="w-[400px]" src={svgEmail} alt="email svg" />
             </div>
           </div>
         </div>
