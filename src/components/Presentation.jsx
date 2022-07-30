@@ -30,7 +30,9 @@ const Presentation = () => {
             {/* btn */}
             <div className="flex items-center justify-around space-x-4 max-w-[320px] mx-auto mb-12 lg:space-x-8 lg:mx-0 lg:max-w-none lg:justify-start">
               <button className="btn">
-                <Link to="/contact">Contactez moi</Link>
+                <Link to="/contact" className="font-bold">
+                  Contactez moi
+                </Link>
               </button>
             </div>
             <Social />
