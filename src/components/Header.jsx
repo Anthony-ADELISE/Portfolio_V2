@@ -18,9 +18,9 @@ const Header = () => {
     <div>
       <header
         className="py-6"
-        data-aos="fade-down"
-        data-aos-duration="2000"
-        data-aos-delay="500"
+        // data-aos="fade-down"
+        // data-aos-duration="2000"
+        // data-aos-delay="500"
       >
         <div className="container mx-auto">
           <div className="flex items-center justify-between">

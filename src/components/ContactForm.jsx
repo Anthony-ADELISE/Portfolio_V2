@@ -8,7 +8,7 @@ const ContactForm = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
 
     emailjs
       .sendForm(

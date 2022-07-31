@@ -6,13 +6,13 @@ import Button from "./Button";
 const NavBar = () => {
   return (
     <nav className="hidden lg:flex lg:pt-4">
-      <ul className="flex items-center space-x-12 font-secondary cursor-pointer">
+      <ul className="flex items-center space-x-12 font-secondary cursor-pointer ">
         <NavLink
-          to="/skills"
+          to="/about"
           className="nav-link font-bold"
           activeClasseName="active"
         >
-          Skills
+          About
         </NavLink>
         <NavLink
           to="/projects"
@@ -28,14 +28,9 @@ const NavBar = () => {
         >
           Contact
         </NavLink>
-        <a
-          href={CV}
-          downlaod="cv"
-          className="btn font-bold"
-          activeClasseName="active"
-        >
-          Donwload CV
-        </a>
+        <NavLink to="/resume" className="nav-link font-bold">
+          Resume
+        </NavLink>
         <Button />
       </ul>
     </nav>

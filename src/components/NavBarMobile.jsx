@@ -16,8 +16,8 @@ const NavBarMobile = ({ setNavMobile }) => {
         className="text-3xl absolute left-4 top-6 font-secondary cursor-pointer"
       />
       <ul className="flex flex-col items-center justify-center space-y-12 h-full font-secondary cursor-pointer">
-        <NavLink to="/skills" className="nav-link">
-          Skills
+        <NavLink to="/about" className="nav-link">
+          About
         </NavLink>
         <NavLink to="/projects" className="nav-link">
           Projects
@@ -25,9 +25,9 @@ const NavBarMobile = ({ setNavMobile }) => {
         <NavLink to="/contact" className="nav-link">
           Contact
         </NavLink>
-        <a href={CV} className="btn">
-          Download CV
-        </a>
+        <NavLink to="/resume" className="nav-link">
+          Resume
+        </NavLink>
         <Button />
       </ul>
     </nav>
