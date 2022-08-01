@@ -1,12 +1,14 @@
 import React from "react";
+import AboutMe from "../components/AboutMe";
 import Header from "../components/Header";
 
-const Skills = () => {
+const About = () => {
   return (
     <div>
       <Header />
+      <AboutMe />
     </div>
   );
 };
 
-export default Skills;
+export default About;

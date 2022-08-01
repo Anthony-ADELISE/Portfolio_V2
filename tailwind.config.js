@@ -28,6 +28,7 @@ module.exports = {
         transparent: "transparent",
         shadow: "hsla(38, 21%, 19%, .16)",
         whiteshadow: "hsla(0, 100%, 100%, 0.48)",
+        footer: "rgba(185, 54, 245, 0.3)",
       },
       boxShadow: {
         primary: "0px 4px 40px rgba(0, 0, 0, 0.03)",

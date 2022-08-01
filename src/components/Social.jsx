@@ -10,7 +10,7 @@ const Social = () => {
   return (
     <div>
       {/* icons */}
-      <div className=" flex space-x-4 text-4xl justify-center pb-6 lg:justify-start lg:text-4xl cursor-pointer">
+      <div className=" flex space-x-4 text-3xl justify-center cursor-pointer lg:justify-start pb-4 lg:text-3xl ">
         <FaFacebook className="hover:text-[#b936f5]" />
         <BsInstagram className="hover:text-[#b936f5]" />
         <BsTwitter className="hover:text-[#b936f5]" />

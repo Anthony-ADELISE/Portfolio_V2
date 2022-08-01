@@ -8,10 +8,10 @@ import Ghost from "../assets/img/ghost.png";
 const NotFound = () => {
   return (
     <div className="max-w-screen">
-      <div className="container mx-auto ">
+      <div className="container mx-auto">
         <Header />
         {/* text */}
-        <div className="flex flex-col lg:flex-row lg:justify-center items-center pt-10 lg:pt-20 space-x-5  lg:space-x-32">
+        <div className="flex flex-col lg:flex-row lg:justify-center items-center mb-32 pt-10 lg:pt-20 space-x-5  lg:space-x-32">
           <div
             className="text-center lg:text-left pb-6 "
             data-aos="fade-down-right"

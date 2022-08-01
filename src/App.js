@@ -8,6 +8,7 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import Resume from "./pages/Resume";
+import Footer from "./components/Footer";
 
 // import useEffect
 import { useEffect } from "react";
@@ -31,6 +32,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

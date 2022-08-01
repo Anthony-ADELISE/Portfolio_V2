@@ -35,4 +35,7 @@
   .textarea {
     @apply h-[180px] rounded-lg p-3 focus:outline-none focus:border-[#b936f5] focus:ring-[#b936f5] focus:ring-1 bg-[#fffb];
   }
+  .span {
+    @apply text-[#b936f5];
+  }
 }
