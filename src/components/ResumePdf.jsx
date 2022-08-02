@@ -14,7 +14,12 @@ const ResumePdf = () => {
   }, []);
 
   return (
-    <div className="mt-6">
+    <div
+      className="mt-6 "
+      data-aos="flip-left"
+      data-aos-duration="2000"
+      data-aos-delay="500"
+    >
       <div className="flex flex-col items-center justify-center h-full">
         <a
           href={pdf}
@@ -24,7 +29,7 @@ const ResumePdf = () => {
           <AiOutlineDownload />
           &nbsp;Download CV
         </a>
-        <Document file={pdf} className="">
+        <Document file={pdf}>
           <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
         </Document>
         <a

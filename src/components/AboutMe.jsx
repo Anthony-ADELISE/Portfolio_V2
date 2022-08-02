@@ -14,7 +14,7 @@ const AboutMe = () => {
           {/* text */}
           <div className="space-y-3 lg:text-left">
             <h1 className="text-center text-3xl font-bold lg:text-3xl">
-              Qui <span className="span">Je Suis ?</span>
+              Qui <span className="span">Suis-Je ?</span>
             </h1>
             <p className="font-semibold lg:text-lg">
               Bonjour tout le monde, je m'appelle{" "}

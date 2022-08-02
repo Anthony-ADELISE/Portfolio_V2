@@ -13,9 +13,10 @@ import Footer from "./components/Footer";
 // import useEffect
 import { useEffect } from "react";
 
-// Impport Aos from animation on scroll
+// Import Aos from animation on scroll
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ParticlesComponent from "./components/ParticlesComponent";
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
       </Routes>
       <Footer />
+      <ParticlesComponent />
     </div>
   );
 }
