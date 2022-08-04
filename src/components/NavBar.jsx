@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import CV from "../assets/img/cv.pdf";
+
 import Button from "./Button";
 
 const NavBar = () => {

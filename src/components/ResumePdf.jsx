@@ -24,7 +24,7 @@ const ResumePdf = () => {
         <a
           href={pdf}
           download="cv anthony pdf"
-          className="flex items-center mb-6 btn font-bold text-white"
+          className="flex items-center mb-6 btn font-bold "
         >
           <AiOutlineDownload />
           &nbsp;Download CV
@@ -35,7 +35,7 @@ const ResumePdf = () => {
         <a
           href={pdf}
           download="cv anthony pdf"
-          className="flex items-center mt-6 mb-7 btn font-bold text-white"
+          className="flex items-center mt-6 mb-7 btn font-bold "
         >
           <AiOutlineDownload />
           &nbsp;Download CV

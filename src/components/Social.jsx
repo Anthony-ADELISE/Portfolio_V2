@@ -11,10 +11,10 @@ const Social = () => {
     <div>
       {/* icons */}
       <div className=" flex space-x-4 text-3xl justify-center cursor-pointer lg:justify-start pb-4 lg:text-3xl ">
-        <FaFacebook className="hover:text-[#b936f5]" />
-        <BsInstagram className="hover:text-[#b936f5]" />
-        <BsTwitter className="hover:text-[#b936f5]" />
-        <BsGithub className="hover:text-[#b936f5]" />
+        <FaFacebook className="socials" />
+        <BsInstagram className="socials" />
+        <BsTwitter className="socials" />
+        <BsGithub className="socials" />
       </div>
     </div>
   );
