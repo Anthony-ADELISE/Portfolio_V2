@@ -6,6 +6,7 @@ module.exports = {
     fontFamily: {
       primary: "Orbitron, sans-serif",
       secondary: "Inter, sans-serif",
+      grotesk: "Space Grotesk , sans-serif",
     },
     container: {
       padding: {
@@ -32,6 +33,7 @@ module.exports = {
       },
       boxShadow: {
         primary: "0px 4px 40px rgba(0, 0, 0, 0.03)",
+        shadowicon: "4px 5px 4px 3px rgba(89, 4, 168, 0.137)",
       },
       backgroundImage: {
         radialBgCircle: "url('/src/assets/img/radial-bg.svg')",

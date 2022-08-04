@@ -26,37 +26,39 @@ const TechnicalSkills = () => {
           </h1>
         </div>
         {/* icons techniques */}
-        <ul className="flex flex-col items-center lg:justify-around lg:flex-row">
-          <li className="text-7xl">
-            <DiReact />
-            <DiReact />
-          </li>
-          <li className="text-7xl"></li>
-          <li className="text-7xl">
+        <ul className="flex justify-center flex-wrap lg:justify-aound  pt-8">
+          <li className="icons">
             <DiReact />
           </li>
-          <li className="text-7xl">
-            <DiReact />
+          <li className="icons">
+            <DiJavascript1 />
           </li>
-          <li className="text-7xl">
-            <DiReact />
+          <li className="icons">
+            <DiCss3 />
           </li>
-          <li className="text-7xl">
-            <DiReact />
+          <li className="icons">
+            <DiHtml5 />
           </li>
-          <li className="text-7xl">
-            <DiReact />
+          <li className="icons">
+            <DiNodejs />
           </li>
-          <li className="text-7xl">
-            <DiReact />
+          <li className="icons">
+            <DiGit />
           </li>
-          <li className="text-7xl">
-            <DiReact />
+          <li className="icons">
+            <DiGithubBadge />
           </li>
-          <li className="text-7xl">
-            <DiReact />
+          <li className="icons">
+            <SiTailwindcss />
+          </li>
+          <li className="icons">
+            <SiRedux />
+          </li>
+          <li className="icons">
+            <FaAws />
           </li>
         </ul>
+        <div></div>
       </div>
     </section>
   );
