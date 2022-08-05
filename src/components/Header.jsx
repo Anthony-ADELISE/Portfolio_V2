@@ -10,6 +10,7 @@ import Logo from "../assets/img/logo.png";
 import { HiMenu } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import NavBarMobile from "./NavBarMobile";
+import PlaySound from "./PlaySound";
 
 const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -28,6 +29,8 @@ const Header = () => {
             <Link to="/">
               <img className="h-[60px]" src={Logo} alt="logo" />
             </Link>
+            {/* sound */}
+            <PlaySound />
             {/* nav */}
             <NavBar />
             {/* nav mobile btn */}

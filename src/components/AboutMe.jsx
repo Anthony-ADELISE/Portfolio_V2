@@ -66,9 +66,9 @@ const AboutMe = () => {
           {/* image */}
           <div
             className="py-6 w-[325px] lg:w-[475px] mx-auto "
-            // data-aos="flip-left"
-            // data-aos-duration="2000"
-            // data-aos-delay="500"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="500"
           >
             <img src={Dev} alt="programming" />
           </div>
