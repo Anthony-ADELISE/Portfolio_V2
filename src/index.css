@@ -49,3 +49,8 @@
     @apply hover:text-[#b936f5] hover:transition hover:duration-300;
   }
 }
+
+@layer components {
+  .card {
+  }
+}

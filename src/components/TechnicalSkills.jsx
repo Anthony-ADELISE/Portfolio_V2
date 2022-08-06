@@ -23,9 +23,9 @@ const TechnicalSkills = () => {
         <div>
           <h1
             className="text-center text-4xl font-bold"
-            data-aos="fade-left"
-            data-aos-duration="2000"
-            data-aos-delay="1000"
+            // data-aos="fade-left"
+            // data-aos-duration="2000"
+            // data-aos-delay="1000"
           >
             Stacks <span className="text-[#b936f5]">Techniques</span>
           </h1>

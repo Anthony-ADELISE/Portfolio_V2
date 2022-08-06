@@ -30,7 +30,7 @@ const Header = () => {
               <img className="h-[60px]" src={Logo} alt="logo" />
             </Link>
             {/* sound */}
-            <PlaySound />
+            {/* <PlaySound /> */}
             {/* nav */}
             <NavBar />
             {/* nav mobile btn */}

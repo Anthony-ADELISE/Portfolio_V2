@@ -7,11 +7,7 @@ import Jefe from "../assets/audio/jefe.mp3";
 // import icons
 import { TbPlaylistOff, TbPlaylist } from "react-icons/tb";
 
-const PlaySound = (
-  handleSongLoading,
-  handleSongPlaying,
-  handleSongFinishedPlaying
-) => {
+const PlaySound = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   return (
     <div>
@@ -27,9 +23,6 @@ const PlaySound = (
         url={Jefe}
         playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
         playFromPosition={300 /* in milliseconds */}
-        onLoading={handleSongLoading}
-        onPlaying={handleSongPlaying}
-        onFinishedPlaying={handleSongFinishedPlaying}
       />
     </div>
   );

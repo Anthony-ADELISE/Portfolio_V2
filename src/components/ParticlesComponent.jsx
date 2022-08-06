@@ -1,6 +1,5 @@
 import { useCallback, useMemo } from "react";
 import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
 const ParticlesComponent = () => {

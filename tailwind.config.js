@@ -34,6 +34,7 @@ module.exports = {
       boxShadow: {
         primary: "0px 4px 40px rgba(0, 0, 0, 0.03)",
         shadowicon: "4px 5px 4px 3px rgba(89, 4, 168, 0.137)",
+        shadowcard: "0 10px 20px rgba(0, 0, 0, 0.28)",
       },
       backgroundImage: {
         radialBgCircle: "url('/src/assets/img/radial-bg.svg')",
