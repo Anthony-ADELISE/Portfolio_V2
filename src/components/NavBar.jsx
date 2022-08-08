@@ -10,26 +10,34 @@ const NavBar = () => {
       <ul className="flex items-center space-x-12 font-secondary cursor-pointer ">
         <NavLink
           to="/about"
-          className="nav-link font-bold"
-          activeClasseName="active"
+          className={({ isActive }) =>
+            isActive ? "active" : "nav-link font-bold"
+          }
         >
           About
         </NavLink>
         <NavLink
           to="/projects"
-          className="nav-link font-bold"
-          activeClasseName="active"
+          className={({ isActive }) =>
+            isActive ? "active" : "nav-link font-bold"
+          }
         >
           Projects
         </NavLink>
         <NavLink
           to="/contact"
-          className="nav-link font-bold"
-          activeClasseName="active"
+          className={({ isActive }) =>
+            isActive ? "active" : "nav-link font-bold"
+          }
         >
           Contact
         </NavLink>
-        <NavLink to="/resume" className="nav-link font-bold">
+        <NavLink
+          to="/resume"
+          className={({ isActive }) =>
+            isActive ? "active" : "nav-link font-bold"
+          }
+        >
           Resume
         </NavLink>
         <Button />

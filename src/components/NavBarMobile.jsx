@@ -16,16 +16,36 @@ const NavBarMobile = ({ setNavMobile }) => {
         className="text-3xl absolute left-4 top-6 font-secondary cursor-pointer"
       />
       <ul className="flex flex-col items-center justify-center space-y-12 h-full font-secondary cursor-pointer">
-        <NavLink to="/about" className="nav-link">
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive ? "active" : "nav-link font-bold"
+          }
+        >
           About
         </NavLink>
-        <NavLink to="/projects" className="nav-link">
+        <NavLink
+          to="/projects"
+          className={({ isActive }) =>
+            isActive ? "active" : "nav-link font-bold"
+          }
+        >
           Projects
         </NavLink>
-        <NavLink to="/contact" className="nav-link">
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive ? "active" : "nav-link font-bold"
+          }
+        >
           Contact
         </NavLink>
-        <NavLink to="/resume" className="nav-link">
+        <NavLink
+          to="/resume"
+          className={({ isActive }) =>
+            isActive ? "active" : "nav-link font-bold"
+          }
+        >
           Resume
         </NavLink>
         <Button />

@@ -8,7 +8,7 @@ import Dev from "../assets/img/programming.svg";
 
 const AboutMe = () => {
   return (
-    <section className="min-h-[540px] pt-24 ">
+    <section className="min-h-[540px] pt-24">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:justify-between lg:space-x-5">
           {/* text */}
