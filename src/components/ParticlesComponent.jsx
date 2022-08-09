@@ -34,7 +34,7 @@ const ParticlesComponent = () => {
           speed: { min: 1, max: 5 },
         },
         opacity: {
-          // value: { min: 0.3, max: 0.7 },
+          value: { min: 0.3, max: 0.7 },
         },
         size: {
           value: { min: 1, max: 3 },

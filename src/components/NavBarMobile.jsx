@@ -10,7 +10,7 @@ import Button from "./Button";
 
 const NavBarMobile = ({ setNavMobile }) => {
   return (
-    <nav className="lg:hidden bg-[#501f66] text-white w-full h-full">
+    <nav className="lg:hidden bg-[#f5f5dc] dark:bg-[#000000d6] dark:text-white text-gray-600 w-full h-full">
       <IoClose
         onClick={() => setNavMobile(false)}
         className="text-3xl absolute left-4 top-6 font-secondary cursor-pointer"

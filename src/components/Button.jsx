@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 
+//import icon
+import { MdLightMode, MdDarkMode } from "react-icons/md";
+
 const Button = () => {
   const [theme, setTheme] = useState(null);
 
@@ -26,9 +29,9 @@ const Button = () => {
     <button
       type="button"
       onClick={handleThemeSwitch}
-      className=" text-lg p1 rounded-md nav-link"
+      className=" text-2xl p1 rounded-md nav-link"
     >
-      {theme === "dark" ? "🌝 Light" : "🌚 Dark"}
+      {theme === "dark" ? <MdLightMode /> : <MdDarkMode />}
     </button>
   );
 };

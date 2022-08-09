@@ -32,4 +32,12 @@ export const projects = [
     img: require("../assets/img/avatar.png"),
     link: "http://www.google.com",
   },
+  {
+    id: 5,
+    title: "Football project",
+    description: "Site web de football",
+    skills: ["reactjs", "css", "tailwindcss", "api"],
+    img: require("../assets/img/avatar.png"),
+    link: "http://www.google.com",
+  },
 ];

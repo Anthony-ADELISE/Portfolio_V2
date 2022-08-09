@@ -14,7 +14,7 @@ const AboutMe = () => {
           {/* text */}
           <div className="space-y-5 lg:text-left">
             <h1
-              className="text-center text-3xl font-bold lg:text-4xl"
+              className="text-center text-4xl font-bold lg:text-4xl"
               data-aos="fade-down"
               data-aos-duration="2000"
               data-aos-delay="500"

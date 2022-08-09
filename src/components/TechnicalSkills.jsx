@@ -27,7 +27,7 @@ const TechnicalSkills = () => {
             // data-aos-duration="2000"
             // data-aos-delay="1000"
           >
-            Stacks <span className="text-[#b936f5]">Techniques</span>
+            Stacks <span className="spans">Techniques</span>
           </h1>
         </div>
         {/* icons techniques */}

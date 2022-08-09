@@ -21,7 +21,8 @@ const Presentation = () => {
             style={{ fontFamily: "" }}
           >
             <h1 className="text-3xl font-bold mb-8 lg:text-4xl lg:leading-snug">
-              Hello👋🏾, Moi c'est Anthony. <br /> Developpeur Front-end.
+              Hello👋🏾, Moi c'est <span className="spans">Anthony</span>. <br />{" "}
+              Developpeur Front-end.
             </h1>
             <p className="font-secondary mb-10 max-w-[440px] mx-auto lg:mx-0">
               Lorem ipsum dolor sit amet consecteur adipisicing elit. Iste
@@ -39,7 +40,7 @@ const Presentation = () => {
           </div>
           {/* Image */}
           <div
-            className="bg-[#b936f567] rounded-full"
+            className="bg-[#D9B99B] rounded-full"
             data-aos="flip-right"
             data-aos-duration="2000"
             data-aos-delay="500"

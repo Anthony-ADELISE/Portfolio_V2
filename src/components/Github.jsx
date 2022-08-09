@@ -25,7 +25,7 @@ const Github = () => {
       >
         <GitHubCalendar
           username="Anthony-ADELISE"
-          color="#b936f5"
+          color="#D9B99B"
           blockSize={15}
           fontSize={16}
         />
