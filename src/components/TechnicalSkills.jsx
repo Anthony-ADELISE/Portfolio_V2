@@ -31,7 +31,7 @@ const TechnicalSkills = () => {
           </h1>
         </div>
         {/* icons techniques */}
-        <ul className="flex justify-center flex-wrap lg:justify-aound  pt-8">
+        <ul className="flex justify-center flex-wrap lg:justify-around  pt-8">
           <li
             className="icons"
             data-aos="fade-right"

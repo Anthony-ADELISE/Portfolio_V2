@@ -4,7 +4,7 @@ export const projects = [
     title: "Football project",
     description: "Site web de football",
     skills: ["reactjs", "css", "tailwindcss", "api"],
-    img: require("../assets/img/avatar.png"),
+    img: require("../assets/img/projetfoot.png"),
     link: "http://www.google.com",
     github: "http://www.google.com",
   },
@@ -21,7 +21,7 @@ export const projects = [
     title: "Football project",
     description: "Site web de football",
     skills: ["reactjs", "css", "tailwindcss", "api"],
-    img: require("../assets/img/avatar.png"),
+    img: require("../assets/img/projetfoot.png"),
     link: "http://www.google.com",
   },
   {
@@ -29,7 +29,7 @@ export const projects = [
     title: "Football project",
     description: "Site web de football",
     skills: ["reactjs", "css", "tailwindcss", "api"],
-    img: require("../assets/img/avatar.png"),
+    img: require("../assets/img/projetfoot.png"),
     link: "http://www.google.com",
   },
   {
@@ -37,7 +37,15 @@ export const projects = [
     title: "Football project",
     description: "Site web de football",
     skills: ["reactjs", "css", "tailwindcss", "api"],
-    img: require("../assets/img/avatar.png"),
+    img: require("../assets/img/projetfoot.png"),
+    link: "http://www.google.com",
+  },
+  {
+    id: 6,
+    title: "Football project",
+    description: "Site web de football",
+    skills: ["reactjs", "css", "tailwindcss", "api"],
+    img: require("../assets/img/projetfoot.png"),
     link: "http://www.google.com",
   },
 ];

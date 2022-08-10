@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 
 //import logo
 import Logo from "../assets/img/logo.png";
+import Logo2 from "../assets/img/logo_antho3.png";
 
 // import icons
 import { HiMenu } from "react-icons/hi";
@@ -27,7 +28,7 @@ const Header = () => {
           <div className="flex items-center justify-between">
             {/* logo */}
             <Link to="/">
-              <img className="h-[60px]" src={Logo} alt="logo" />
+              <img className="h-[60px]" src={Logo2} alt="logo" />
             </Link>
             {/* sound */}
             {/* <PlaySound /> */}

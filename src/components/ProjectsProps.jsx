@@ -17,22 +17,30 @@ const ProjectsProps = () => {
           </h1>
         </div>
         {/* Cards projects */}
-        <ul className="pt-8 flex justify-center lg:justify-around ">
+        <ul className="pt-8 flex flex-wrap justify-center lg:justify-around ">
           {projects.map((project) => (
-            <li className="border-[1.7px] px-10 ml-10 border-[#D9B99B]">
-              <div className="w-[150px]">
-                <img src={project.img} alt="img project" />
+            <div className="card">
+              <li className=" flex flex-col items-center space-y-4">
+                <div className="w-[300px] pt-5">
+                  <img src={project.img} alt="img project" />
+                </div>
+                <h1>title</h1>
+                <p className="text-left">
+                  Lorem ipsum dolor sit amet consecteur adipisicing elit. Iste
+                  doloribus inventore harum cumque blanditiis minima.
+                </p>
+              </li>
+              <div className="flex justify-around pt-10 pb-10">
+                <button className="btn flex justify-center items-center">
+                  <DiGithubBadge className="text-2xl " />
+                  <p>Github</p>
+                </button>
+                <button className="btn">
+                  <TbExternalLink className="text-2xl " href={project.link} />
+                  <p>lien</p>
+                </button>
               </div>
-              <h1>title</h1>
-              <p>
-                Lorem ipsum dolor sit amet consecteur adipisicing elit. Iste
-                doloribus inventore harum cumque blanditiis minima.
-              </p>
-              <div className="flex items-center justify-center">
-                <DiGithubBadge />
-                <TbExternalLink />
-              </div>
-            </li>
+            </div>
           ))}
         </ul>
       </div>
